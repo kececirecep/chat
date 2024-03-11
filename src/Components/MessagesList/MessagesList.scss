@@ -1,0 +1,138 @@
+.messagelist-container {
+    width: 400px;
+
+    .header {
+        padding: 28px 12px; 
+
+        .head {
+            padding-bottom: 24px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 12px;
+
+            h4 {
+                font-size: 32px;
+                color: #363B45;
+                font-weight: 500;
+            }
+
+            span {
+                width: 26px;
+                height: 26px;
+                background: #FFE14C;
+                color: #2A3751;
+                border-radius: 50%;
+                padding: 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 600;
+            }
+        }
+
+        form {
+            position: relative;
+            display: flex;
+            align-items: center;
+
+            input {
+                width: 100%;
+                border: none;
+                outline: none;
+                background: #F3F3F4;
+                padding: 20px;
+                color: #707A8F;
+                border-radius: 10px;
+                font-size: 16px;
+            }
+
+            span {
+                position: absolute;
+                right: 15px;
+                color: #707A8F;
+                font-size: 25px;
+            }
+        }
+    }
+
+    .messagelist-content {
+        padding: 28px 12px;
+        height: 80vh;
+        overflow-y: scroll;
+
+        h2 {
+            color: #3F4550;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .messagelist-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+
+            .text { 
+                display: flex;
+                align-items: center;
+                gap: 12px;
+                padding: 4px;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                }
+
+                h4 {
+                    font-size: 17px;
+                    color: #484E5B;
+                    font-weight: 500;
+                    padding-bottom: 6px;
+                }
+
+                p {
+                    font-size: 14px;
+                    color: #2A3751;
+                    font-weight: 400;
+                }
+            }
+
+            .info {
+                padding: 4px; 
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                p {
+                    color: #707A8F;
+                    font-weight: 300;
+                    padding-bottom: 6px;
+                    font-size: 14px;
+                }
+
+                span.new-message {
+                    width: 12px;
+                    height: 12px;
+                    background: #FFE14C;
+                    color: #2A3751;
+                    border-radius: 50%;
+                    padding: 12px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: 500;
+                    font-size: 14px;
+ 
+                }
+                span.message-read{ 
+                    // display: none;
+                    color: #E4C219;
+                    font-weight: 700;
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+}
