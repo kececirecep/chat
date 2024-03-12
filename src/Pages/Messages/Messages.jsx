@@ -3,6 +3,7 @@ import Aside from '../../Components/Aside/Aside'
 import MessagesList from '../../Components/MessagesList/MessagesList'
 import './MessagesPage.scss'
 import Chat from '../../Components/Chat/Chat'
+import Profile from '../../Components/Profile/Profile'
 
 const Messages = () => {
   return (
@@ -10,6 +11,7 @@ const Messages = () => {
       <Aside/>
       <MessagesList/>
       <Chat/>
+      <Profile/>
     </div>
   )
 }

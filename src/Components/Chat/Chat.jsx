@@ -2,7 +2,8 @@ import React from 'react'
 import './Chat.scss'
 import { BsBell, BsThreeDotsVertical } from "react-icons/bs";
 import { IoCheckmarkDoneOutline } from "react-icons/io5";
-
+import { RiSendPlaneFill } from "react-icons/ri";
+import { CiImageOn } from "react-icons/ci";
 
 const Chat = () => {
   return (
@@ -46,7 +47,17 @@ const Chat = () => {
             </div>
           </div>
         </div>
+        <form id="myForm">
+          <input type="text" placeholder="Typing..." />
+          <label for="imageUpload">
+            <span id="uploadIcon"><CiImageOn /></span>
+          </label>
+          <input type="file" id="imageUpload" style={{ display: "none" }} />
+          <span id="sendIcon"><RiSendPlaneFill /></span>
+        </form>
+
       </div>
+
     </div>
   )
 }
