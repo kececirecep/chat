@@ -13,7 +13,7 @@ const Menu = () => {
       <ul>
         <NavLink to="/"><li> <span className="icon"><GrHomeRounded /></span></li></NavLink>
         <NavLink to="/messages"><li><span className="icon"><TbMessage2 /></span></li></NavLink>
-        <NavLink to="/home"><li><span className="icon"><LuUsers /></span></li></NavLink>
+        <NavLink to="/friends-list"><li><span className="icon"><LuUsers /></span></li></NavLink> 
         <NavLink to="/home"><li><span className="icon"><IoSettingsOutline /></span></li></NavLink>
       </ul>
       <div className="menu-logout">

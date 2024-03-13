@@ -7,15 +7,13 @@
   box-sizing: border-box;
   list-style: none;
   font-family: "Ubuntu", sans-serif;
-}
-
-/* ===== Scrollbar CSS ===== */
-/* Firefox */
-* {
   scrollbar-width: thin;
   scrollbar-color: rgb(91, 104, 131) #ffffff;
 }
 
+ a{
+  text-decoration: none;
+ }
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 2px;

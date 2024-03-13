@@ -8,7 +8,7 @@ import Profile from '../../Components/Profile/Profile'
 const Messages = () => {
   return (
     <div className='MessagePage-container'>
-      <Aside/>
+      <Aside/> 
       <MessagesList/>
       <Chat/>
       <Profile/>
